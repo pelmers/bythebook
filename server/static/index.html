@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>BookView</title>
+    <link rel="stylesheet" href="/static/index.css">
+  </head>
+
+  <body>
+
+    <div id="splash_text">
+      <h2>Hello, show me your books.</h2>
+    </div>
+
+    <div class="file_selection">
+      <input type="button" id="upload_submit" value="Upload" />
+      <input type="file" id="file_input" name="image" size="1" style="display: none;"/>
+    </div>
+
+    <!-- For the progress bar -->
+    <div class="progress_bar" style="display:none;">
+      <span id="progress_status_span" style="width: 0%"></span>
+    </div>
+
+    <!-- For the loading spinner -->
+    <div class="loading_spinner" style="display:none;">
+    </div>
+
+    <!-- For the results display -->
+    <div class="results" style="display:none;">
+      <table id="results_table">
+      </table>
+    </div>
+
+    <script type="text/javascript" src="/static/index.js"></script>
+  </body>
+</html>
+<!-- vim: set expandtab ts=2 sw=2: -->

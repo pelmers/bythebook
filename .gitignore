@@ -1,0 +1,6 @@
+/build/
+/server/venv/
+/server/env.json
+/server/sessions/
+__pycache__/
+*.py[cod]
